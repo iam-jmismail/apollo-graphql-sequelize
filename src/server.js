@@ -1,8 +1,10 @@
+
+require('dotenv/config')
 const express = require("express");
 const graphQLHttp = require("express-graphql");
 const cors = require("cors");
-const schema = require("./data/schema");
-const db = require("./config/db");
+const schema = require('./data/schema');
+const db = require('../config/db');
 // INIT APP
 const app = express();
 
